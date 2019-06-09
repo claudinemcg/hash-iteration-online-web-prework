@@ -5,11 +5,12 @@
 # suite_d: "Charlie Chaplin", 
 # suite_e: "Crumpet the Elf"
 # }
-
+winner = ""
 def select_winner(passengers)
   passengers.each do |suite, name|
     if suite_a == name.starts_with?("A")
-      puts winner 
+      winner == name
     end
-  
+
 end
+winner
